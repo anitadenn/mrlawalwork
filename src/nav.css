@@ -1,0 +1,333 @@
+/* generic */
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(184, 26, 105, 0.7),rgba(18, 22, 80, 0.7));
+
+}
+
+/* container/ phone layout */
+
+.container{
+    background-color: white;
+    width: 300px;
+    position: relative;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.2);
+    padding: 15px;
+    padding-bottom: 0;
+    margin-top: 15px;
+
+}
+
+/*  user */
+
+.user{
+    width: 100%;
+    padding: 0;
+}
+
+.col img{
+    width: 100%;
+    height: 40px;
+    border-radius: 20%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 44%;
+    cursor: pointer;
+}
+
+.col h6{
+    color: #797979;
+}
+.col h2{
+    margin-top: 3px;
+}
+
+/* search box */
+
+.search{
+    width: 100%;
+    margin: auto;
+}
+.input-field input{
+    border: none;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+}
+.search i{
+    text-align: right;
+    left: 110px;
+}
+.icon {
+    color: #797979;
+    position: absolute;
+}
+.input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    margin-bottom: 15px;
+    margin-top: 10px;
+    /* padding: 10px; */
+    position: relative;
+    border-radius: 10px;
+
+}
+
+
+/* start learning/get started */
+
+.student{
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+}
+.student-col{
+    width: 100%;
+    background-image: linear-gradient(rgba(10, 255, 255, 0.7),rgba(51, 51, 255,0.2));
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+.student-col svg{
+    padding-right: 10px;
+}
+.student-col h3{
+    width: 170px;
+    color: blue;
+    padding: 10px;
+}
+.student-col button{
+    border: none;
+    padding: 10px ;
+    color: rgb(51, 51, 255);
+    border-radius: 12px;
+    margin: 10px;
+    cursor: pointer;
+    background-color: white;
+    transition: 0.15s;
+}
+.student-col button:hover{
+    background-color: whitesmoke;
+}
+
+/* courses */
+
+.for-you-row{
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 10px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.foryou-col p{
+    color: blue;
+}
+
+.php{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(80, 206, 80, 0.8);
+    flex-grow: 1;
+    padding: 10px;
+    color: white;
+    text-align: left;
+    border-radius: 10px;
+}
+.php-col{
+    background-color: rgb(240, 240, 240);
+    padding: 15px;
+    border-radius: 10px;
+    position: relative;
+    /* margin-bottom: 15px; */
+    /* width: 100%; */
+    flex-grow: 1;
+    
+}
+.php i{
+    font-size: 16px;
+}
+.join-img{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    flex-grow: 1;
+
+}
+.float{
+    position: absolute;
+
+}
+.one{
+    right: 45px;
+}
+.two{
+    right: 20px;
+}
+.three{
+    right: 5px;
+    /* top: 5px; */
+}
+.first-box{
+    margin-bottom: 20px;
+}
+.php-col h6{
+    padding: 0px 0 10px 0;
+}
+.join-img h4{
+    font-size: 16px;
+    width: 100px;
+}
+
+.images{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    width: 100%;
+    top: 38px;
+}
+.images img{
+    height: 30px;
+    /* width: 42px; */
+    border-radius: 50%;
+    /* margin-right: 5px; */
+    border: 1px solid #00f7ff;
+    /* position: absolute; */
+    
+}
+.images button{
+    border: none;
+    padding: 6px;
+    background-color: white;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.user-php-col{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-basis: 50%;
+    margin-left: 20px;
+    flex-grow: 1;
+    position: relative;
+}
+
+.play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play button{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: white;
+}
+.play i{
+    font-size: 16px;
+}
+
+/* bottom menu */
+
+.menu-container{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    position: relative;
+    border-radius: 20px;
+    overflow-x: hidden;
+    border-top: 1px solid blue;
+    
+    
+}
+
+.menu_link{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    color: #797979;
+    text-decoration: none;
+    transition: background-color 0.1s ease-in-out;
+
+}
+.menu_link:hover{
+    background-color: #eee;
+}
+.menu_link:active{
+    color: blue;
+}
+.menu-icon-link{
+    display: flex;
+    flex-basis: 25%;
+    position: relative;
+
+}
+.menu_icon{
+    font-size: 18px;
+}
+
+/* coder */
+
+.coder{
+    width: 40%;
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid white ;
+    padding: 10px;
+    color: white;
+    background-image: linear-gradient(rgba(4,9,30,0.7), rgba(173, 163, 22, 0.7));
+    background-position: center;
+    background-size: cover;
+}
+.author{
+    font-size: 18px;
+}
+.author span{
+    color: #3dd2ff;
+}
+
+.challenge{
+    color: greenyellow;
+    padding-bottom: 10px;
+}
+
+.challenge a{
+    text-decoration: none;
+    background-color: white;
+    color: red;
+    padding: 10px;
+    border-radius: 10px;
+
+}
